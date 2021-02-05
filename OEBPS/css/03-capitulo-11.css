@@ -1,0 +1,114 @@
+.resultado span {
+    background: #97d3ba;
+    border-radius: 400px;
+    font-size: 400px;
+    padding: 60px;
+}
+
+#obstruintes1 {
+    top: 1500px;
+}
+#vogais {
+    top: 2500px;
+}
+#obstruintes2 {
+    top: 3500px;
+}
+#naocontinuas {
+    top: 4500px;
+}
+#continuas {
+    top: 5500px;
+}
+#soantes {
+    top: 6500px;
+}
+
+.classes {
+    font-size: 420px;
+    left: 156px;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.classes .texto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.classes .fonemas {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Calibri, 'Sans-serif';
+}
+
+.classes .fonemas div {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    background: #97d3ba;
+    border-radius: 600px;
+    height: 600px;
+    width: 600px;
+    margin: 2px;
+    text-align: center;
+}
+
+.fonemas::before, .fonemas::after {
+    content: '/';
+    font-size: 600px;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+#acoes {
+    position: absolute;
+    right: 75px;
+    top: 108px;
+}
+
+#acoes button {
+    width: 50px;
+    height: 50px;
+    background: #97D3BA;
+    border: none;
+    border-radius: 25px;
+}
+
+#acoes button i {
+    font-size: 25px !important;
+    color: white;
+}
+
+#acoes img, #acoes button {
+    margin-top: 0px;
+    float: left;
+}
+
+.refresh {
+    background: #819bcc !important;
+}

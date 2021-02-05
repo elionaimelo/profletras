@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Calibri;
+  src: url('../font/Calibri.TTF');
+}
+
+#quadro {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 140px;
+  top: 170px;
+  font: 25px Calibri;
+}
+
+.ui-draggable {
+  background-color: #97d3ba;
+  color: black;
+  font-size: 14px;
+  float: left;
+  margin: 5px;
+  padding: 14px 0;
+  text-align: center;
+  width: 250px;
+  border-radius: 20px;
+  left: 175px;
+  top: 0;
+}
+
+.droppable {
+  float: left;
+  height: 430px;
+  width: 120px;
+}
+
+.droppable div {
+  background-color: #CCC;
+  margin: 10px auto;
+  min-height: 44px;
+  width: 250px;
+  border-radius: 20px;
+  border: 0 0 1px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+#surdas {
+  margin-left: 100px;
+}
+
+#sonoras {
+  margin-left: 20px;
+}
+
+div.hovered {
+  background-color: #9C94E0;
+  z-index: 100;
+}
+
+#mensagem {
+  position: absolute;
+  top: 0;
+  left: 430px;
+}
+
+.associacaoIncorreta {
+  box-shadow: 0 0 10px red;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background: #97D3BA;
+  border: none;
+  border-radius: 25px;
+}
+
+button i {
+  font-size: 25px !important;
+  color: white;
+}
+
+#acoes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: absolute;
+  width: 700px;
+  top: 100px;
+}
+
+#acoes img, #acoes button {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+
+.refresh {
+  background: #819bcc !important;
+}

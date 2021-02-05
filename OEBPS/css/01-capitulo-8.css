@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Calibri;
+    src: url('../font/Calibri.TTF');
+}
+
+/**
+* Styles for the puzzle
+*/
+#puzzle {
+  /*border: 1px solid black;*/
+  padding: 20px;
+  float: left;
+  margin: 0 20px;
+}
+
+#puzzle div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#puzzle div div {
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/* style for each square in the puzzle */
+#puzzle .puzzleSquare {
+  width: 32px;
+  text-transform: uppercase;
+  background-color: #9edbd7;
+  box-sizing: border-box;
+  margin: 3px;
+  padding: 5px 0;
+  border-radius: 16px;
+  border: 3px solid #9edbd7;
+  font: 1em sans-serif;
+}
+
+/*button::-moz-focus-inner {
+  border: 0;
+}*/
+
+/* indicates when a square has been selected */
+#puzzle .selected {
+  background-color: #b58bcc;
+}
+
+/* indicates that the square is part of a word that has been found */
+#puzzle .found {
+  border: 3px solid #4593e6;
+}
+
+#puzzle .solved {
+  background-color: purple;
+  color: white;
+}
+
+.refresh {
+  background: #819bcc !important;
+}
+
+/* indicates that all words have been found */
+#puzzle .complete-wrong {
+  /*background-color: red;*/
+}
+
+#puzzle .complete-right {
+  background-color: #68B493;
+}
+
+/**
+* Styles for the word list
+*/
+#words {
+  padding-top: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 0;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0;
+  column-count: 2;
+  column-gap: 0;
+  float: left;
+  width: 300px;
+}
+
+#words ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+#words li {
+  padding: 3px 0;
+  font: 1.5em sans-serif;
+}
+
+/* indicates that the word has been found */
+#words .wordFound {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#opcoes {
+  padding: 20px;
+  width: 660px;
+  font-size: 1.5em;
+  font-family: Calibri;
+  margin-top: 515px;
+}
+
+#opcoes button {
+  font-size: 1em;
+  background: #97D3BA;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.desabilitado {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.associacaoIncorreta {
+  color: #E53338 !important;
+}
+
+#cacapalavras {
+  position: absolute;
+  top: 200px;
+  width: 700px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  left: 34px;
+}
+
+#acoes {
+  position: absolute;
+  right: 45px;
+  top: 700px;
+}
+
+#acoes button {
+  width: 50px;
+  height: 50px;
+  background: #97D3BA;
+  border: none;
+  border-radius: 25px;
+}
+
+#acoes button i {
+  font-size: 25px !important;
+  color: white;
+}
+
+#acoes img, #acoes button {
+  margin-top: 0px;
+  float: left;
+}
+

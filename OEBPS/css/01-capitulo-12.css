@@ -1,0 +1,71 @@
+span.selecionada {
+  font-weight: bold;
+}
+
+span.ativa {
+  color: green;
+}
+
+#completar {
+  margin-top: 50px;
+}
+
+#opcoes {
+  margin-top: 60px;
+}
+
+.desabilitado {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+#quadro {
+  font: 1.2em Calibri;
+}
+
+#texto {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+#quadro button {
+  font-size: 1em;
+  background: #97d3ba;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+#quadro #opcoes button {
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+#acoes {
+  position: absolute;
+  right: 100px;
+  top: 140px;
+}
+
+#acoes button {
+  width: 50px;
+  height: 50px;
+  background: #97D3BA;
+  border: none;
+  border-radius: 25px;
+}
+
+#acoes button i {
+  font-size: 25px !important;
+  color: white;
+}
+
+#acoes img, #acoes button {
+  margin-top: 0px;
+  float: left;
+}
+
+.refresh {
+  background: #819bcc !important;
+}

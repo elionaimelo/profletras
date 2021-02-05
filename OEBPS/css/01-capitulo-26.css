@@ -1,0 +1,77 @@
+#acoes {
+  position: absolute;
+  left: 75px;
+  top: 340px;
+}
+
+#acoes button {
+  width: 50px;
+  height: 50px;
+  background: #97D3BA;
+  border: none;
+  border-radius: 25px;
+}
+
+#acoes button i {
+  font-size: 25px !important;
+  color: white;
+}
+
+#acoes img, #acoes button {
+  margin-top: 0px;
+  float: left;
+}
+
+.refresh {
+  background: #819bcc !important;
+}
+
+
+span.CharOverride-05 {
+  font-family:"San Francisco Text Bold", sans-serif;
+  font-size:480px;
+  font-weight:bold;
+}
+
+span.CharOverride-06 {
+  font-family:"San Francisco Text Light", sans-serif;
+  font-size:480px;
+  font-style:normal;
+  font-weight:300;
+}
+
+#_idContainer37500 {
+  height:178px;
+  left:73px;
+  position:absolute;
+  top:219px;
+  width:632px;
+}
+
+#palavras {
+	position: absolute;
+	left:-90px;
+	top:478px;
+}
+
+.certo , .errado {
+	background-color: #97d3ba;
+	color: black;
+	padding: 20px 0;
+	text-align: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.certo span {
+	color: #4593e6;
+}
+
+.errado {
+	background-color: #E53338;
+}
+
+.errado span {
+	color: #E53338;
+}
